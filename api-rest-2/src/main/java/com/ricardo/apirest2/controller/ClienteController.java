@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-    /* Estamos anotando que esta classe será um controlador rest onde serão desenvolvidos endpoints rest, ou seja, que
+    /* Estamos anotando que esta classe será um controlador Rest onde serão desenvolvidos endpoints Rest, ou seja, que
     receberá as requisições e respostas. */
 
 @RequestMapping("/clientes")
     // Esta anotação irá mapear os endpoints que receberão as requisições no caminho especificado '/clientes'.
+    // Este é primeiro endpoint da aplicação
 
 public class ClienteController {
     // Classe que possui os métodos de requisição e resposta.
