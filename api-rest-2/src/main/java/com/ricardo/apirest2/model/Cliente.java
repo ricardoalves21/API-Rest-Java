@@ -10,7 +10,6 @@ public class Cliente {
 
     @Id
     // Esta anotação @Id diz que esta propriedade é um campo com id, ou seja, uma chave primária da tabela.
-
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     // Esta anotação @GeneratedValue diz que a geração desse campo será automática e realizada pelo próprio BD (auto incremento).
     private Long id;  // Esta propriedade possui a referência de id em uma coluna da tabela Cliente.
