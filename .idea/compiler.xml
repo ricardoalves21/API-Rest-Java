@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rest-api" />
+        <module name="apirestintegrada" />
+        <module name="apirest" />
+        <module name="devsuperior" />
+        <module name="api-rest-2" />
+        <module name="pratica" />
+        <module name="apirestexterna" />
+        <module name="apirestricardo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-rest-2" target="11" />
+      <module name="apirest" target="11" />
+      <module name="apirestexterna" target="11" />
+      <module name="apirestintegrada" target="11" />
+      <module name="apirestricardo" target="11" />
+      <module name="devsuperior" target="11" />
+      <module name="pratica" target="11" />
+      <module name="rest-api" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-rest-2" options="-parameters" />
+      <module name="apirest" options="-parameters" />
+      <module name="apirestexterna" options="-parameters" />
+      <module name="apirestintegrada" options="-parameters" />
+      <module name="apirestricardo" options="-parameters" />
+      <module name="devsuperior" options="-parameters" />
+      <module name="pratica" options="-parameters" />
+      <module name="rest-api" options="-parameters" />
+    </option>
+  </component>
+</project>
