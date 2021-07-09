@@ -9,7 +9,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -22,7 +21,7 @@ public class ContaController {
     private final ContaService contaService;
     private final ModelMapper mapper;
 
-    @GetMapping("/")
+    @GetMapping
     public List<ContaOutputDTO> listarContas() {
         var conta = this.contaService.listarContas();
 
@@ -38,7 +37,7 @@ public class ContaController {
         return this.mapper.map(conta, ContaOutputDTO.class);
     }
 
-    @PostMapping("/")
+    @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public ContaOutputDTO salvaConta(@Valid @RequestBody ContaInputDTO input) {
         var conta = this.mapper.map(input, Conta.class);
@@ -55,7 +54,7 @@ public class ContaController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @PutMapping("/")
+    @PutMapping
     @ResponseStatus(HttpStatus.OK)
     public ContaOutputDTO atualizaConta(@Valid @RequestBody ContaInputDTO input) {
         var conta = this.mapper.map(input, Conta.class);

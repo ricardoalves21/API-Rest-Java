@@ -1,12 +1,13 @@
-package com.apirest.pratica;
+package com.ricardo.socialbank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PraticaApplication {
+public class SocialbankApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PraticaApplication.class, args);
+		SpringApplication.run(SocialbankApplication.class, args);
 	}
+
 }
