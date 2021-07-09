@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/API-Rest-Java.iml" filepath="$PROJECT_DIR$/.idea/API-Rest-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-rest-2/api-rest-2.iml" filepath="$PROJECT_DIR$/api-rest-2/api-rest-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apirest/apirest.iml" filepath="$PROJECT_DIR$/apirest/apirest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apirestexterna/apirestexterna.iml" filepath="$PROJECT_DIR$/apirestexterna/apirestexterna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apirestintegrada/apirestintegrada.iml" filepath="$PROJECT_DIR$/apirestintegrada/apirestintegrada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apirestricardo/apirestricardo.iml" filepath="$PROJECT_DIR$/apirestricardo/apirestricardo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devsuperior/devsuperior.iml" filepath="$PROJECT_DIR$/devsuperior/devsuperior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pratica/pratica.iml" filepath="$PROJECT_DIR$/pratica/pratica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projeto_rest_api/rest-api.iml" filepath="$PROJECT_DIR$/projeto_rest_api/rest-api.iml" />
+    </modules>
+  </component>
+</project>

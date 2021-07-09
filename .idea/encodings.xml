@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-rest-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apirest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apirestexterna/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apirestintegrada/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apirestricardo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devsuperior/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pratica/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projeto_rest_api/src/main/java" charset="UTF-8" />
+  </component>
+</project>
